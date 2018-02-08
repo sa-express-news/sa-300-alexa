@@ -1,0 +1,21 @@
+{
+  "name": "sa-300-alexa",
+  "version": "0.0.1",
+  "description": "An Alexa skill to provide information about San Antonio's 300th anniversary.",
+  "main": "index.js",
+  "repository": "https://github.com/KiaFarhang/sa-300-alexa.git",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Kia Farhang",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
