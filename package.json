@@ -5,11 +5,14 @@
   "main": "index.js",
   "repository": "https://github.com/KiaFarhang/sa-300-alexa.git",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "prestart": "tsc",
+    "start": "node build/index.js"
   },
   "author": "Kia Farhang",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^8.9.1",
     "alexa-app": "^4.2.1"
   },
   "devDependencies": {
