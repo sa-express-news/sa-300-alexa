@@ -6,7 +6,7 @@
   "repository": "https://github.com/KiaFarhang/sa-300-alexa.git",
   "scripts": {
     "pretest": "tsc",
-    "test": "NODE_ENV=test mocha ./build/**/spec.js",
+    "test": "NODE_ENV=test mocha --exit ./build/**/spec.js",
     "prestart": "tsc",
     "start": "node build/index.js"
   },
